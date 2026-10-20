@@ -1,12 +1,4 @@
-# Bright Future Library — Website Project
-
-**Student:** Ntwari Arnold Bruce
-**Student ID:** 26159
-**Course:** Web Technology
-**Assessment:** Mid Exam
-**Year:** 2026-2027
-
----
+# Bright Future Library — Project
 
 ## About This Project
 
@@ -128,62 +120,6 @@ The bottom of the page includes:
 
 ---
 
-## How the Code is Organised
-
-All the code lives inside the `src/` folder. Here is how it is structured:
-
-```
-bright-future-library/
-└── src/
-    ├── App.js              — Main file that puts all sections together
-    ├── App.css             — App-level styles
-    ├── index.css           — Global styles and shared utility classes
-    └── components/
-        ├── Navbar.js / .css        — Navigation menu
-        ├── Header.js / .css        — Hero section with mission statement
-        ├── About.js / .css         — About the library
-        ├── Services.js / .css      — Library services
-        ├── Events.js / .css        — Upcoming events
-        ├── FeaturedBooks.js / .css — Featured books with genre filter
-        ├── Contact.js / .css       — Contact info and form with validation
-        └── Footer.js / .css        — Page footer
-```
-
-Each section of the website is its own **component** — a separate, self-contained piece of code. This makes the project easy to read, update, and maintain.
-
----
-
-## How to Run the Project
-
-Make sure you have **Node.js** installed on your computer. Then follow these steps:
-
-**Step 1 — Open your terminal and go into the project folder:**
-```bash
-cd bright-future-library
-```
-
-**Step 2 — Install the required packages (only needed the first time):**
-```bash
-npm install
-```
-
-**Step 3 — Start the development server:**
-```bash
-npm start
-```
-
-The website will automatically open in your browser at:
-```
-http://localhost:3000
-```
-
-**To create a production-ready build:**
-```bash
-npm run build
-```
-
----
-
 ## Key Features Summary
 
 - Fully responsive — works on desktop, tablet, and mobile screens
@@ -198,12 +134,12 @@ npm run build
 
 ## Contact & Support
 
-If you have any questions about this project, need clarification on how something works, or would like more information, please feel free to reach out:
+Please feel free to reach out:
 
 **Name:** Ntwari Arnold Bruce
 **Email:** arnoldbrucentwali@gmail.com
 **Student ID:** 26159
-**Institution:** AUCA Web Technology — Mid Exam Submission
+**Institution:** AUCA Web Technology — Mid Exam
 
 ---
 
