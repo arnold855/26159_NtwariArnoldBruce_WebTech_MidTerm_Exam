@@ -1,70 +1,210 @@
-# Getting Started with Create React App
+# Bright Future Library — Website Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Student:** Ntwari Arnold Bruce
+**Student ID:** 26159
+**Course:** Web Technology
+**Assessment:** Mid Exam
+**Year:** 2026-2027
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## About This Project
 
-### `npm start`
+This project is a front-end website built for **Bright Future Library**, a new community library that was created to promote reading, support students, and give every resident free access to educational resources.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The website was built using **ReactJS** and is designed to be clean, easy to use, and welcoming to all visitors — whether they are students, parents, or community members.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The goal was simple: build a website where anyone can visit and quickly find out what the library offers, when events are happening, which books are featured, and how to get in touch.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What the Website Contains
 
-### `npm run build`
+The website is made up of several sections, each serving a clear purpose:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Header (Home Section)
+The first thing visitors see when they open the website. It shows:
+- The library name: **Bright Future Library**
+- A short mission statement explaining what the library stands for
+- Two buttons to quickly jump to Services or Books
+- Key numbers: 10,000+ books, 500+ members, 20+ events per year
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Navigation Menu
+A fixed menu bar at the top of the page that stays visible as you scroll. It contains links to:
+- Home
+- About Us
+- Services
+- Events
+- Featured Books
+- Contact Us
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+On mobile phones, the menu collapses into a hamburger button to keep things tidy.
 
-### `npm run eject`
+### 3. About Us
+This section introduces the library to visitors. It explains:
+- When the library was established (2026)
+- Why it was created
+- The library's **Mission** — to promote literacy and lifelong learning
+- The library's **Vision** — a community where everyone has access to knowledge
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 4. Services
+This section lists all the things the library offers to the community. There are **6 services** displayed in a neat grid:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Service | Description |
+|---|---|
+| Book Borrowing & Returning | Borrow up to 5 books for 2 weeks |
+| Internet & Computer Access | Free Wi-Fi and computer workstations |
+| Reading & Study Spaces | Quiet rooms and group study areas |
+| Educational Workshops & Literacy Programmes | Free workshops open to all |
+| Children's Corner | A safe space for young readers |
+| Print, Scan & Copy Services | Affordable on-site printing |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 5. Upcoming Events
+This section shows **4 upcoming library events**. Each event displays:
+- The date (day, month, year)
+- The event title
+- A category label (Youth, Children, All Ages, Adults)
+- The time and location
+- A short description (click on any event to expand it)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Current events listed:
+1. Annual Reading Competition
+2. Children's Storytelling Session
+3. Community Literacy Workshop
+4. Digital Skills for Beginners
 
-## Learn More
+### 6. Featured Books
+This section highlights **6 recommended books** chosen by the librarians. Each book shows:
+- The book title
+- The author's name
+- A star rating (out of 5)
+- A short description
+- A "Borrow This Book" button
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Visitors can also filter books by genre using the filter buttons at the top of the section.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Books featured:
+1. Things Fall Apart — Chinua Achebe
+2. Educated — Tara Westover
+3. Atomic Habits — James Clear
+4. The Alchemist — Paulo Coelho
+5. Sapiens — Yuval Noah Harari
+6. To Kill a Mockingbird — Harper Lee
 
-### Code Splitting
+### 7. Contact Us
+This section gives visitors all the information they need to reach the library:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Address:** 14 Knowledge Avenue, Bright Town, BT 2024, Rwanda
+- **Telephone:** +250 788 123 456
+- **Email:** info@brightfuturelibrary.rw
+- **Opening Hours:** Monday to Friday: 8:00 AM – 7:00 PM | Saturday: 9:00 AM – 5:00 PM | Sunday: Closed
 
-### Analyzing the Bundle Size
+There is also a **contact form** where visitors can send a message. The form checks that:
+- The full name is filled in (at least 3 characters)
+- The email address is in a valid format (e.g. name@example.com)
+- The message is filled in (at least 10 characters)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If anything is wrong, a clear error message appears under the field. When everything is correct and the form is submitted, a success message is shown.
 
-### Making a Progressive Web App
+### 8. Footer
+The bottom of the page includes:
+- The library name and a short tagline
+- Quick navigation links
+- Contact details
+- Copyright information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+| Technology | Purpose |
+|---|---|
+| ReactJS (v19) | Building the user interface with components |
+| JSX | Writing HTML-like code inside JavaScript |
+| CSS3 | Styling the website (colors, layout, spacing) |
+| useState Hook | Managing form inputs, errors, and UI state |
+| Flexbox & CSS Grid | Creating responsive layouts |
+| Semantic HTML | Making the site accessible and well-structured |
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## How the Code is Organised
 
-### `npm run build` fails to minify
+All the code lives inside the `src/` folder. Here is how it is structured:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+bright-future-library/
+└── src/
+    ├── App.js              — Main file that puts all sections together
+    ├── App.css             — App-level styles
+    ├── index.css           — Global styles and shared utility classes
+    └── components/
+        ├── Navbar.js / .css        — Navigation menu
+        ├── Header.js / .css        — Hero section with mission statement
+        ├── About.js / .css         — About the library
+        ├── Services.js / .css      — Library services
+        ├── Events.js / .css        — Upcoming events
+        ├── FeaturedBooks.js / .css — Featured books with genre filter
+        ├── Contact.js / .css       — Contact info and form with validation
+        └── Footer.js / .css        — Page footer
+```
+
+Each section of the website is its own **component** — a separate, self-contained piece of code. This makes the project easy to read, update, and maintain.
+
+---
+
+## How to Run the Project
+
+Make sure you have **Node.js** installed on your computer. Then follow these steps:
+
+**Step 1 — Open your terminal and go into the project folder:**
+```bash
+cd bright-future-library
+```
+
+**Step 2 — Install the required packages (only needed the first time):**
+```bash
+npm install
+```
+
+**Step 3 — Start the development server:**
+```bash
+npm start
+```
+
+The website will automatically open in your browser at:
+```
+http://localhost:3000
+```
+
+**To create a production-ready build:**
+```bash
+npm run build
+```
+
+---
+
+## Key Features Summary
+
+- Fully responsive — works on desktop, tablet, and mobile screens
+- Smooth scrolling navigation between all sections
+- Expandable event cards — click to read more about each event
+- Genre filter for the books section
+- Contact form with live validation and a success message
+- Clean, professional design using a navy blue and gold colour scheme
+- Built entirely with functional components and React hooks
+
+---
+
+## Contact & Support
+
+If you have any questions about this project, need clarification on how something works, or would like more information, please feel free to reach out:
+
+**Name:** Ntwari Arnold Bruce
+**Email:** arnoldbrucentwali@gmail.com
+**Student ID:** 26159
+**Institution:** AUCA Web Technology — Mid Exam Submission
+
+---
+
+*Bright Future Library Website — Built with care for the community.*
